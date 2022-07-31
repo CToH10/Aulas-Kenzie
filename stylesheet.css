@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(0,128,128,0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.active {
+    background-color: beige;
+    color: navy;
+}
+li{
+    display: inline;
+}
+li a:hover {
+    background-color: teal;
+    color:navy
+}
+nav{
+    background-color: #006666;
+    text-align: center;
+    padding: 1px;
+    border: 1px solid #2E4053;
+    width: 1520px;
+}
+main{
+    text-align: center;
+}
+#navegar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+h1 {
+    border-bottom: 2px solid grey;
+}
+#mais-indic {
+    float:right
+}
