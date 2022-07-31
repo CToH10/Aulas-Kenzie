@@ -8,18 +8,46 @@
     <link rel="icon" href="./img/h-old-eng.png">
     <title>Prática leva ao aprendizado</title>
 </head>
+<style>
+    body {
+        background-color: rgba(0,128,128,0.3);
+    }
+    main{
+        text-align: center;
+    }
+    nav{
+        background-color: #006666;
+        text-align: center;
+        padding: 1px;
+        border: 1px solid #2E4053;
+        width: 1520px;
+    }
+    li {
+    display: inline;
+    }
+    li a:hover {
+        background-color: teal;
+        color: navy;
+    }
+    #navegar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .active {
+        background-color: beige;
+        color: navy;
+    }
+</style>
 <body>
     <section id="navegar">
         <nav>
             <ul>
-                <li><a href="#navegar">Home</a></li>
+                <li><a href="#navegar" class="active">Home</a></li>
                 <li><a href="https://ctoh10.github.io/pagina_perfil/">Quem sou</a></li>
                 <li><a href="https://github.com/CToH10">Projetos realizados</a></li>
+                <li><a href="./subpages/mais-indicacoes.html" style="float:right">Quero receber mais indicações</a></li>
             </ul>
-        </nav>
-        <aside id="cadastrar">
-            <p><a href="./subpages/mais-indicacoes.html">Quero receber mais indicações</a></p>
-        </aside>
     </section>
     <section id="artigos">
         <main>
@@ -32,13 +60,14 @@
                 <p>Dig din<br>Dig din<br>Sou foda</p><br>
                 <cite>Avassaladores</cite><address><a href="https://www.youtube.com/watch?v=RIBkK5X_3mo">Ouça pelo youtube <img src="./img/right-arrow.png" alt="Seta indicando mudança de página" height="8" width="15"></a></address>
             </article>
+            <hr>
             <article>
                 <h2>Invictus</h2>
                 <p>Out of the night that covers me,<br>
                     Black as the pit from pole to pole,<br>
                     I thank whatever gods may be<br>
                     For my unconquerable soul.</p>
-                    <cite>William Ernest Henley</cite><address><a href="./invictus.html">Continue a ler <img src="./img/right-arrow.png" alt="Seta indicando mudança de página" height="8" width="15"></a></address>
+                    <cite>William Ernest Henley</cite><address><a href="./subpages/invictus.html">Continue a ler <img src="./img/right-arrow.png" alt="Seta indicando mudança de página" height="8" width="15"></a></address>
             </article>
             <hr>
             <article>
@@ -64,9 +93,9 @@
     <section id="redes-sociais">
         <footer>Minhas redes
             <ul>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>TikTok</li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://tiktok.com">TikTok</a></li>
             </ul>
         </footer>
     </section>
