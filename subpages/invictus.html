@@ -5,24 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Invictus - William Ernest Henley">
-    <link rel="icon" href="./img/Portrait_of_William_Ernest_Henley.jpg">
+    <link rel="icon" href="../img/Portrait_of_William_Ernest_Henley.jpg">
+    <link rel="stylesheet" href="../stylesheet.css">
     <title>Invictus - William Ernest Henley</title>
 </head>
+<style>
+    main{
+        text-align: center;
+        width: 33.33%;
+        padding: 15px;
+    }
+    aside{
+        float: right;
+    }
+    footer{
+        text-align: justify;
+    }
+    .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    }
+        .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+</style>
 <body>
-    <section id="navegar">
+    <section id="navegar" class="row">
         <nav>
-            <ul>
+            <ul id="nav-bar">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="https://ctoh10.github.io/pagina_perfil/">Quem sou</a></li>
                 <li><a href="https://github.com/CToH10">Projetos realizados</a></li>
+                <li><a href="#mais-indicacoes" id="mais-indic">Quero receber mais indicações</a></li>
             </ul>
         </nav>
-        <aside id="cadastrar">
-            <p><a href="#mais-indicacoes">Quero receber mais indicações</a></p>
-        </aside>
     </section>
     <section>
-        <main id="poema">
+        <main id="poema" class="column">
             <h1>Invictus</h1>
             <pre>
                 Out of the night that covers me,
@@ -47,7 +70,7 @@
             </pre>
             <cite>William Ernest Henley</cite>
         </main>
-        <aside>
+        <aside class="column">
             <h2>Curiosidades</h2>
                 <ul>
                     <li>Foi a inspiração do título do film Invictus (2009).</li>
@@ -55,12 +78,12 @@
                     <li>O trecho "I am the master of my fate; I am the captain of my soul" aparece em uma cena do filme A Grande Aposta (2015).</li>
                 </ul>
         </aside>
-        <footer>
+        <footer class="column">
             <h2>Sobre o autor</h2>
             <p>Autor inglês, de condição financeia desfavorável e saúde prejudicada. Era contemporâneo de Oscar Wilde e Robert Louis Stenvenson, tendo sido amigo deste e tendo desentidimentos com aquele. Morreu aos 53 anos, vítima de tuberculose.</p>
         </footer>
     </section>
-    <section id="mais-indicacoes">
+    <section id="mais-indicacoes" class="row">
         <form>
             <fieldset>
                 <legend>Quero receber mais indicações</legend>
@@ -81,12 +104,12 @@
             </fieldset>
         </form>
     </section>
-    <section id="redes-sociais">
+    <section id="redes-sociais" class="row">
         <footer>Minhas redes
             <ul>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>TikTok</li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://tiktok.com">TikTok</a></li>
             </ul>
         </footer>
     </section>
