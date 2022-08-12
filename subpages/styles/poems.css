@@ -4,20 +4,20 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.active {
-    background-color: beige;
-    color: navy;
+
+li {
+    display: inline;
 }
 
-li{
-    display: inline;
+li {
     text-decoration: none;
 }
+
 li a:hover {
     background-color: teal;
     color:navy
-    text-decoration: none;
 }
+
 nav{
     background-color: #006666;
     text-align: center;
@@ -27,7 +27,8 @@ nav{
 }
 main{
     text-align: center;
-    width: 1350px;
+    width: 33.33%;
+    padding: 15px;
     margin: 0 260px 0 276px;
     background-color: rgba(0,128,128,0.3);
     border: 1px solid rgba(130, 128, 128, 0.366);
@@ -53,6 +54,21 @@ main article p {
     margin: 10px auto;
     padding: 0;
     text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    }
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+aside{
+    float: right;
 }
 
 footer{
