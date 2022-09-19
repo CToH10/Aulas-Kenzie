@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="primeiro teste de formulário">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/300px-HTML5_logo_and_wordmark.svg.png">
+    <title>Formulários</title>
+</head>
+<body>
+    <p>Do que você quer jogar?</p>
+    <form>
+        <label for="top">Top</label>
+        <input type="radio" name="teste" id="top" value="top" required="true">
+        <label for="mid">Mid</label>
+        <input type="radio" name="teste" id="mid" value="mid" required="true">
+        <label for="sup">Sup</label>
+        <input type="radio" name="teste" id="sup" value="sup" required="true">
+
+        <button type="submit">Escolhido</button>
+    </form>
+    <form>
+        <label for="email-de-contato">Email de contato</label>
+        <input type="text" name="email" placeholder="Seu email preferido" id="email-de-contato" name="email-de-contato">
+        <button type="submit">Quero receber!</button>
+    </form>
+    <form>
+        <label for="password">Senha</label>
+        <input type="password" minlength="6" placeholder="Digite sua senha" required="true" id="password" name="senha">
+        <button type="submit">Quero começar</button>
+    </form>
+    <form action=>
+            <label for="username">Nome de usuário</label>
+            <input type="text" minlength="7" placeholder="Digite nome de usuário" required="true" id="username" name="username">
+
+            <label for="senha">Senha de acesso</label>
+            <input type="password" name="password" id="password" minlength="8"  required="true" placeholder="Digite sua senha">
+
+            <button type="submit">Acessar</button>
+    </form>
+    <form>
+            <label for="comodo">Qual seu cômodo?</label>
+            <input type="text" name="comodo" id="comodo" placeholder="Cômodo desejado" required>
+           
+           
+            <label for="escolha-de-cor">Cor da parede</label>
+            <select name="escolha-de-cor" id="cor" required>
+                <option value="">Escolher cor</option>
+                <option value="azul">Azul</option>
+                <option value="verde">Verde</option>
+                <option value="rosa">Turquesa</option>
+                <option value="arco-iris">Arcoiro</option>
+            </select>
+            <button type="submit">Essa é minha cor!</button>
+    </form>
+    <form>
+            <label for="mensagem-de-texto">Seus tormentos</label>
+            <textarea name="mensagem" id="mensagem-de-texto" cols="45" rows="5" placeholder="No que você está pensando?"></textarea>
+            <button type="submit">Me ajuda</button>
+    </form>
+</body>
+</html>

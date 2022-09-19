@@ -1,0 +1,1 @@
+ primo: calcule 2 elevado a potência N e divida-o por N , se o resto for 2, então o número será primo

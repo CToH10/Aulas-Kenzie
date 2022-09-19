@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body .menu {
+    background-color: #4572E8;
+    padding: 20px 0;
+}
+
+body .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+body .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+body .form-search {
+    margin-top: 50px;
+}
+
+body .form-search form {
+    display: flex;
+    gap: 16px;
+}
+.form-search form input {
+    width: 85%;
+    height: 50px;
+    background-color: #E7E7E7;
+    padding-left: 16px;
+    border: 1px solid #E7E7E7;
+}
+.form-search form button {
+    width: 15%;
+    height: 50px;
+    background-color: #4572E8;
+    color: #fff;
+    border: 1px solid #4572E8;
+}
+
+body .container .post {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+body .container .post .title-1 {
+    font-size: 42px;
+}
+
+body .container .post .paragraph {
+    font-size: 18px;
+    line-height: 34px;
+    color: #333333;
+}
+
+body .container .post blockquote{
+    font-style: italic;
+}
+
+body .container .last-posts {
+    display: flex;
+    gap: 16px;
+    padding: 32px 0;
+}
+
+body .container .last-post-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+body .container .last-post-card main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+body .container .last-post-card main {
+    font-size: 14px;
+    line-height: 24px;
+    justify-content: space-evenly;
+}
+
+body .container .last-post-card main a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4572E8;
+    text-decoration: none;
+}
+
+body .container .last-post-card img{
+    width: 300px;
+    height: 250px;
+}

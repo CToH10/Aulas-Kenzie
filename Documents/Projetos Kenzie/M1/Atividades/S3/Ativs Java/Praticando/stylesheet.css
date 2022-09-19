@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ededed;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: rgba(0, 128, 128, 0.451);
+}
+
+h1 {
+    color: rgb(0,0,0);
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: rgba(0, 128, 128, 0.451);
+}

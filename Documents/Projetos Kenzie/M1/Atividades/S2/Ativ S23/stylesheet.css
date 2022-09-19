@@ -1,0 +1,204 @@
+body, div, header, figure, img, main, h2, li, a, p, aside, footer {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+.blog {
+    width: 1300px;
+    margin: 0 auto;
+}
+/*NAVEGAÇÃO*/
+.blog .navegar {
+    /*position: fixed;
+    top: 0;
+    left: 0;*/
+    max-width: 90%;
+    max-height: 58px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 40px -15px rgba(0, 0, 0, 0.25);
+}
+
+.blog .navegar header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog figure {
+    width: 20%;
+}
+
+.blog .navegar img {
+    max-width: 58px;
+    max-height: 58px;
+ }
+
+.blog nav {
+    width: 80%;
+}
+
+.blog .navegar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.blog .navegar header nav ul li {
+color: #0D0D0E;
+}
+
+/*CONTEÚDO*/
+.blog .content {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .content main {
+    max-width: 65%;
+}
+
+.blog .content aside {
+    max-width: 35%;
+}
+
+.blog .content main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog .content main ul li {
+    max-width: 287px;
+    max-height: 343px;
+    margin: 41px auto 14px;
+}
+
+.blog .content main ul li a figure {
+    max-width: 100%;
+    max-height: 175px;
+    object-fit: contain;
+}
+
+.blog .content main ul li a h2 {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D0D0E;
+}
+
+.blog .content main ul li p {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #343A40;
+    
+}
+
+.blog .content main ul li .categoria {
+    display: flex;
+}
+
+.blog .content main ul li .categoria p {
+    background: #F7F7F7;
+    padding: 2px 13px 3px 9px;
+    margin-right: 21px;
+}
+
+/* ASIDE */
+.blog .content aside {
+
+}
+
+.blog .content aside h3 {
+    margin-top: 41px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0D0D0E;
+}
+
+.blog .content aside ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 31px;
+}
+
+.blog .content aside ul li {
+    padding-bottom: 23px;
+}
+
+.blog .content aside li a {
+    max-width: 295px;
+    max-height: 58px;
+    display: flex;
+}
+
+.blog .content aside li a figure {
+    width: 70px;
+    height: 58px;
+}
+
+.blog .content aside li a p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0D0D0E;
+    margin-left: 17px;
+}
+
+.blog .content aside .recent {
+    margin-top: -6px;
+}
+
+.blog .content aside {}
+
+
+
+/*FOOTER*/
+.blog .footer {
+    position: absolute;
+    width: 100%;
+    height: 105px;
+    left: 0px;
+    top: 876px;
+    margin: 0 auto;
+    background: #0d0d0ee5;
+}
+
+.blog .footer .shoe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 105px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.blog .footer p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F3F4F5;
+}
+
+.blog .footer .shoe .redes .redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+
+.blog .footer .redes-sociais li a figure img {
+    height: 30px;
+    width: 30px;
+    opacity: 0.3;
+    margin: 0 30px;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menu {
+    padding: 20px 0;
+    background-color: #4572E8;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.mb-1 {
+    margin-bottom: 24px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.post-title {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.post-content {
+    padding-bottom: 32px;
+}
+
+.post-paragraph {
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 300;
+}

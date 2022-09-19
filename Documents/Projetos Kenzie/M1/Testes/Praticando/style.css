@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav .navegacao {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #008080;
+}
+nav .navegacao ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+nav .navegacao ul li {
+    min-width: fit-content;
+}
+
+nav .navegacao ul li a {
+    color: #5a0043;
+}
+
+nav .navegacao ul li a:hover {
+    color: #800060;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background: #005a5a;
+    color: #806600;
+}
+
+main .identificacao h1 {
+    text-align: center;
+    margin: 0 auto 10px;
+    min-width: min-content;
+}
+
+main .textos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+main .textos p {
+    max-width: fit-content;
+    min-width: 30%;
+    width: min-content;
+    text-align: justify
+}
+
+main .foto figure {
+    max-height: 300px;
+    min-height: min-content;
+    width: 200px;
+    min-width: 30%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+aside {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background: #008080;
+}
+
+aside ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+aside ul li {
+    max-width: 20%;
+    min-width: fit-content;
+}
+
+aside ul li a:hover p {
+    color: #800060;
+}
+
+aside ul li a figure img {
+    border: 1px transparent;
+    border-radius: 5px;
+    width: 120px;
+    height: 150px;
+}
+
+aside ul li p {
+    max-width: fit-content;
+    padding: 5px 0;
+    color: #5a0043;
+    text-align: center;
+}
+
+footer {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #008080af;
+}
+
+footer h2 {
+    color: #5a0043;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul a figure img {
+    width: 30px;
+    height: 30px;
+    opacity: 50%;
+}
+
+footer ul a figure img:hover {
+    width: 30px;
+    height: 30px;
+    opacity: 100%;
+}

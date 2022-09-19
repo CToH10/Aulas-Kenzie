@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 800px;
+}
+.title-main{
+    font-size: 25px;
+}
+
+.color-blue {
+    color: rgba(17, 17, 200, 0.9);
+}
+.bg-blue{
+    background-color: rgba(17, 17, 200, 0.9);
+    color: white;
+}
+.direitos {
+    background-color: black;
+    color: white;
+}
+.text-cen {
+    text-align: center;
+}

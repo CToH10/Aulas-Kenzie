@@ -1,0 +1,77 @@
+{
+    "email":"l12u21i9s19@email.com",
+    "name" : "Luis",
+    "password" : "f4K3*PasSw0rD",
+    "age" : "24"
+}
+// Localização:
+// Só entrar no google e clicar com botão direito em um local (não precisa ser sua casa exatamente
+// https://www.google.com.br/maps?hl=pt-BR&tab=rl&authuser=0
+{
+    "location" : "@-5.1340534,-42.7919305,16z"
+}
+// orientação Homem ou Mulher para heteros/homo, Homem/Mulher para bissexual etc
+// Educação:Ensino Medio Incompleto || Ensino Medio Completo || Ensino Superior Incompleto || Ensino Superior Completo
+// Temos uma lista de profissóes válidas, veja no link: 
+//https://github.com/httTinder/httTinder-Api-v2/blob/main/src/utils/professionsList.utils.ts
+{
+    "orientation" : "Mulher",
+    "gender" : "Homem/Mulher",
+    "bio" : "sou bem legal oi",
+    "height": 169,
+    "education" : "Ensino Superior Completo",
+    "profession" : "Direito"
+}
+// que tipo de relação vc procura que vc procura (true pra sim)
+{
+    "friendship" : false,
+    "casual" : true,
+    "serious" : true
+}
+// Que tipo de pessoa você procura
+Para signos (zodiac), você pode colocar vários separados por /
+Pisces Aries Taurus Gemini Cancer Leo Virgo Libra Scorpio Sagittarius Capricorn Aquarius
+kidsQnt fica null caso kids seja false
+{
+    "zodiac" : "Aries/Taurus/Cancer/Libra/Scorpio/Sagittarius/Capricorn/Aquarius/Pisces/Virgo,
+    "drinker" : true,
+    "smoker" : false,
+    "kids": false,
+    "kidsQnt" : "3"
+}
+// Hobbies
+// Temos uma lista de hobbies validos, veja no link:
+(fique a vontade para enviar vários ser vários)
+https://github.com/httTinder/httTinder-Api-v2/blob/main/src/utils/hobbies.utils.ts
+{
+    "name" : "Jogos de Tabuleiros",
+    "name" : "Jogos Eletronicos",
+    "name" : "RPG",
+    "name" : "Ler",
+    "name" : "Esportes",
+    "name" : "Fofocas"
+}
+// Estilos músicais que você gosta:
+// (podem ser vários)
+{
+    "music" : "pagode",
+    "music" : "pop",
+    "music" : "kpop",
+    "music" : "funk",
+    "music" : "rap",
+    "music" : "nu metal",
+    "music" : "pop punk",
+    "music" : "indie",
+    "music" : "mpb",
+    "music" : "rock",
+    "music" : "trap"
+}
+// Pets que você tem:
+// (podem ser vários)
+{
+    "specie" : "gato"
+}
+// Línguas que você fala
+{
+    "language" : "inglês"
+}

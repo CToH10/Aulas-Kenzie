@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriptio" content="Atividade de formulário">
+    <link rel="icon"    href="https://developer.mozilla.org/favicon-48x48.cbbd161b.png">
+    <title>Atividade S124</title>
+</head>
+<body>
+    <div>
+        <h1>Venha participar!</h1>
+            <p>Faça seu cadastro</p>
+    </div>
+    <div>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+
+            <label for="email">Email de contato</label>
+            <input type="text" name="email" id="email" required placeholder="Seu email preferido">
+
+            <textarea name="motivação" id="motivação" cols="45" rows="5" placeholder="O que lhe motivou a participar?"></textarea>
+
+            <label for="modulo">Indique seu módulo</label>
+            <select name="modulo" id="modulo" required>
+                <option value="">Escolha seu módulo</option>
+                <option value="M1">Módulo 1</option>
+                <option value="M2">Módulo 2</option>
+                <option value="M3">Módulo 3</option>
+                <option value="M4">Módulo 4</option>
+                <option value="M5">Módulo 5</option>
+                <option value="M6">Módulo 6</option>
+            </select>
+
+            <label for="senha">Senha de acesso</label>
+            <input type="password" minlength="8" name="senha" id="senha" required placeholder="Crie sua senha">
+            
+            <label for="confirmar-senha">Confirme sua senha</label>
+            <input type="password" minlength="8" name="confirmar-senha" id="confirmar-senha" required placeholder="Confirme sua senha">
+
+            <label for="sim">Sim</label>
+            <input type="radio" name="newsletter" id="sim" value="sim" required>
+            <label for="nao">Não</label>
+            <input type="radio" name="newsletter" id="nao" value="nao" required>
+
+            <button type="submit">Quero participar</button>
+        </form>
+    </div>
+</body>
+</html>
